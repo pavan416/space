@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+</head>
+<div id="landing-page" style="display: block;">
+    <h1>Allow Sound & Full-Screen</h1>
+    <p>For the better experience enable Sound & enable full-screen</p>
+    <button onclick="enterSite()">Enable Sound & Full-Screen</button>
+</div>
+
+<div id="main-page" style="display: none;">
+<body>
+    <div class="video-bg">
+        <video autoplay loop muted playsinline>
+            <source src="Img/bg-1.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!-- your transparent button, initially hidden -->
+    <button class="center-button" id="center-button">Click Me</button>
+
+    <audio id="background-audio" loop>
+        <source src="Audio/bg.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="voice-message">
+        <source src="Audio/Hello.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="entering-space" loop>
+        <source src="Audio/click to enter.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+
+    <script src="script.js"></script>
+
+    <!-- The rest of your website goes here -->
+
+
+
+
+
+    
+    
+
+
+    <!-- The rest of your website goes here -->
+</body>
+</html>
